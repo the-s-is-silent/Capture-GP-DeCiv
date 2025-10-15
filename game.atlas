@@ -1,0 +1,34 @@
+
+game.png
+size: 256, 64
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Tiles/Drydock
+  rotate: false
+  xy: 76, 27
+  size: 39, 33
+  orig: 39, 33
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Supply Complex
+  rotate: false
+  xy: 163, 28
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Great Admiral
+  rotate: false
+  xy: 4, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Legate
+  rotate: false
+  xy: 123, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1

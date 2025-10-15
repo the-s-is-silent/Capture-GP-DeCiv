@@ -265,7 +265,7 @@
 			"Unbuildable",
 			"Can transform to [Death Laser]",
 			"Can be earned through combat <for [Land] units>",
-			"This Unit upgrades for free including special upgrades <upon ending a turn in a [Foreign Land] tile> <for [AI player]>",
+			"This Unit upgrades for free including special upgrades <upon ending a turn in a [Foreign Land] tile> <for [AI player] Civilizations>",
 			"May upgrade to [Death Laser] through ruins-like effects"
 		],
 		"movement": 2
