@@ -1,0 +1,160 @@
+[
+	{
+		"name": "Settlement",
+		"culture": 4,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [10]%",
+			"[+1 Food] <with [1] to [2] neighboring [Food source] tiles>",
+			"[+2 Food] <with [3] to [6] neighboring [Food source] tiles>",
+			"[+2 Culture] <after discovering [Radio]>",
+			"[+2 Culture] <after discovering [Social Engineering]>",
+			"[+2 Gold] <after discovering [Incentivization]>",
+			"Unbuildable <in [Mountain] tiles>",
+			"Unbuildable <in [Mountain Tunnel] tiles>",
+			"Unbuildable <in [Fissure] tiles>",
+			"Unbuildable <in [Muskeg] tiles>",
+			"Will not be replaced by automated units",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
+	},
+	{
+		"name": "Supply Complex",
+		"gold": 4,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [10]%",
+			"[+2 Gold] <after discovering [Decontamination]>",
+			"[+2 Gold] <after discovering [Radar]",
+			"[+2 Gold] <after discovering [Incentivization]>",
+			"Unbuildable <in [Bonus resource] tiles>",
+			"Unbuildable <in [Luxury resource] tiles>",
+			"Unbuildable <in [Mountain] tiles>",
+			"Unbuildable <in [Mountain Tunnel] tiles>",
+			"Unbuildable <in [Fissure] tiles>",
+			"Unbuildable <in [Muskeg] tiles>",
+			"Will not be replaced by automated units",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
+	},
+	{
+		"name": "Drydock",
+		"production": 4,
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"uniques": [
+			"Great Improvement",
+			"[+1 Production, +1 Science] <after discovering [Oceanography]>",
+			"[+1 Production, +1 Science] <after discovering [Radar]>",
+			"[+1 Production, +1 Science] <after discovering [Ocean Remediation]>",
+			"[+1 Production, +1 Science] <after discovering [Pharmaceuticals]>",
+			"[+1 Production, +1 Science] <after discovering [Satellites]>",
+			"Unavailable <with [0] to [0] neighboring [Land] tiles>",
+			"Unbuildable <in [resource] tiles>",
+			"Will not be replaced by automated units",
+			"Unpillagable"
+		]
+	},
+	{
+		"name": "Banana Business Area",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 4,
+		"food": 1,
+		"uniques": [
+			"Great Improvement",
+			"Food source",
+			"Gives a defensive bonus of [10]%",
+			"[+1 Food] <with [1] to [6] neighboring [Jungle Replanting Zone] tiles>",
+			"[+2 Gold] <after discovering [Plastics]>",
+			"Unbuildable <in [Mountain] tiles>",
+			"Unbuildable <in [Mountain Tunnel] tiles>",
+			"Unbuildable <in [Fissure] tiles>",
+			"Unbuildable <in [Muskeg] tiles>",
+			"Will not be replaced by automated units",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+30 Gold]",
+			"Provides [1] [Bananas]"
+		]
+	},
+	{
+		"name": "Memorial Site",
+		"culture": 4,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [10]%",
+			"[+1 Culture] <after discovering [Mining]>",
+			"[+1 Culture] <after discovering [Currency]>",
+			"[+1 Culture] <after discovering [Railroads]>",
+			"[+1 Culture, +1 Happiness] <after discovering [Flight]>",
+			"[+1 Culture] <after discovering [Incentivization]>",
+			"[+1 Culture] <after discovering [Globalization]>",
+			"Unbuildable <in [Mountain] tiles>",
+			"Unbuildable <in [Mountain Tunnel] tiles>",
+			"Unbuildable <in [Fissure] tiles>",
+			"Unbuildable <in [Muskeg] tiles>",
+			"Can be built just outside your borders",
+			"Will not be replaced by automated units",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
+	},
+	{
+		"name": "Preservator",
+		"culture": 1,
+		"science": 1,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Tile provides yield without assigned population",
+			"Ensures a minimum tile yield of [+1 Production]",
+			"[+2 Food, +2 Gold] <in [Fallout] tiles>",
+			"[+2 Food, +2 Gold] <in [Toxic Waste] tiles>",
+			"[+1 Culture] <after discovering [Education]>",
+			"[+1 Production] <after discovering [Laboratory]>",
+			"[+1 Science] <after discovering [Decryption]>",
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"Does not need removal of [Toxic Waste]",
+			"Does not need removal of [Fallout]",
+			"Provides [1] [Coal] <in [{non-[Forest]} {non-[Jungle]} {non-[Fallout]} {Hill}] tiles>",
+			"Provides [1] [Artifacts] <in [{Jungle} {Wasteland}] tiles>",
+			"Provides [1] [Electronics] <in [{Jungle} {Badlands}] tiles>",
+			"Provides [1] [Machine Parts] <in [{Jungle} {Tundra}] tiles>",
+			"Provides [1] [Artifacts] <in [{Jungle} {Desert}] tiles>",
+			"Provides [1] [Machine Parts] <in [{Jungle} {Permafrost}] tiles>",
+			"Provides [1] [Aluminum] <in [{Featureless} {Permafrost}] tiles>",
+			"Provides [1] [Oil] <in [{Featureless} {Tundra}] tiles>",
+			"Improves [Scrap] resource in this tile",
+			"Improves [Plastics] resource in this tile",
+			"Improves [Books] resource in this tile",
+			"Improves [Data] resource in this tile",
+			"Improves [Machine Parts] resource in this tile",
+			"Improves [Electronics] resource in this tile",
+			"Improves [Artifacts] resource in this tile",
+			"Cannot be built on [Water] tiles",
+			"Cannot be built on [Impeded terrain] tiles",
+			"Cannot be built on [Coal] tiles",
+			"Cannot be built on [Oil] tiles",
+			"Cannot be built on [Aluminum] tiles",
+			"Cannot be built on [Uranium] tiles",
+			"Cannot be built on [Weapons] tiles",
+			"Cannot be built on [Power] tiles",
+			"Can only be built to improve a resource <in [Bonus resource] tiles>",
+			"Can only be built to improve a resource <in [Luxury resource] tiles>",
+			"Pillaging this improvement yields approximately [+20 Science]"
+		]
+	},
+	{
+		"name": "Survivor camp",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Can be built outside your borders",
+			"Unpillagable",
+			"Provides a random bonus when entered"
+		]
+	}
+]

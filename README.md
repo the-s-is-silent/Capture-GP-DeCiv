@@ -1,2 +1,4 @@
 # Capture-GP-DeCiv
-Ever wanted to capture those Great People the AI leaves unprotected? Ever wanted to do so in DeCiv? Then this is the mod for you! Also compatible with other DeCiv expansion mods.
+Ever wanted to capture those Great People the AI leaves unprotected? Ever wanted to do so in DeCiv? Then this is the mod for you! Also supports usage alongside other DeCiv expansion mods such as [Bamboolord's](https://github.com/RealBamboolord) "Bamboo DeCiv Expans", [Indonesian Gentleman's](https://github.com/carriontrooper) "Forgotten Factions for DeCiv" and "Followers of the Green for DeCiv", and of course, my "Outlaws of the Wastes" mod. Does not support the [Mechanized](https://github.com/EPG333/The-Mechanized-Derusted) [Rebalance](https://github.com/the-s-is-silent/The-Mechanized-Refurbished) mods due to them having different replacements for the Great Farmer.
+
+(Note: Great Sages and faction specific replacements for them still cannot be captured. This mod also applies the "Settlement GI Split" balance change from Outlaws of the Wastes even if that mod is not enabled.)

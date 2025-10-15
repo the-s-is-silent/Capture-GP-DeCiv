@@ -1,0 +1,468 @@
+[
+	{
+		"name": "Great Administrator",
+		"unitType": "Civilian",
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"Can instantly construct a [Settlement] improvement <by consuming this unit>",
+			"Great Person - [Culture]",
+			"Unbuildable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Counter - Arts",
+		"replaces": "Great Administrator",
+		"uniqueTo": "TCC",
+		"unitType": "Civilian",
+		"uniques": [
+			"Empire enters a [12]-turn Golden Age <by consuming this unit>",
+			"Can instantly construct a [Memorial Site] improvement <by consuming this unit>",
+			"Great Person - [Arts]",
+			"Unbuildable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Great Scientist",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can hurry technology research",
+			"Can instantly construct a [Academy] improvement <by consuming this unit>",
+			"Great Person - [Science]",
+			"Unbuildable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Counter - History",
+		"uniqueTo": "TCC",
+		"replaces": "Great Scientist",
+		"unitType": "Civilian",
+		"uniques": [
+			"Empire enters a [12]-turn Golden Age <by consuming this unit>",
+			"Can instantly construct a [Preservator] improvement <by consuming this unit>",
+			"Can instantly construct a [Academy] improvement <by consuming this unit> <starting from the [Neofeudal era]>",
+			"Great Person - [History]",
+			"Unbuildable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+			"Can instantly construct a [Supply Complex] improvement <by consuming this unit>",
+			"Great Person - [Gold]",
+			"Unbuildable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Smuggler",
+		"uniqueTo": "Deadrock Clan",
+		"replaces": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": [
+			"Invisible to non-adjacent units",
+			"May enter foreign tiles without open borders",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [40] Influence",
+			"Can instantly construct a [Narcotics farm] improvement <by consuming this unit>",
+			"Great Person - [Gold]",
+			"Unbuildable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Slave Trader",
+		"uniqueTo": "Crimson Legion",
+		"replaces": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+			"Can instantly construct a [Prison farm] improvement <by consuming this unit>",
+			"Great Person - [Gold]",
+			"Unbuildable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "NFT Monkey",
+		"uniqueTo": "Cyberapes",
+		"replaces": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [50] Influence",
+			"Can instantly construct a [Banana Business Area] improvement <by consuming this unit>",
+			"Great Person - [Gold]",
+			"Unbuildable"
+		],
+		"movement": 1
+	},
+	{
+		"name": "Counter - Economy",
+		"uniqueTo": "TCC",
+		"replaces": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
+			"Can hurry technology research",
+			"Can speed up the construction of a wonder",
+			"Great Person - [Economy]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Great Engineer",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can speed up construction of a building",
+			"Can instantly construct a [Manufactory] improvement <by consuming this unit>",
+			"Great Person - [Production]",
+			"Unbuildable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Counter - Industry",
+		"uniqueTo": "TCC",
+		"replaces": "Great Engineer",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can instantly construct a [Manufactory] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit> <[2] times> <after which this unit is consumed>",
+			"Great Person - [Industry]",
+			"Unbuildable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Great Person - [War]",
+			"Can be earned through combat <for [Land] units>",
+			"Unbuildable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Great Mad Scientist",
+		"replaces": "Great General",
+		"uniqueTo": "Hexlock",
+		"unitType": "Civilian",
+		"uniques": [
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"Can hurry technology research",
+			"Can instantly construct a [Crystal Refinery] improvement <by consuming this unit>",
+			"Great Person - [War]",
+			"Can be earned through combat <for [Land] units>",
+			"Unbuildable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Gangboss",
+		"uniqueTo": "Deadrock Clan",
+		"replaces": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can build [Land] improvements on tiles",
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"Can instantly construct a [Prison farm] improvement <by consuming this unit>",
+			"Great Person - [War]",
+			"Can be earned through combat <for [Land] units>",
+			"Unbuildable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Legate",
+		"replaces": "Great General",
+		"uniqueTo": "Crimson Legion",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can instantly construct a [Outpost] improvement <by consuming this unit>",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [45] Influence",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"Can be earned through combat <for [Land] units>",
+			"Great Person - [War]",
+			"Unbuildable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Bugler",
+		"uniqueTo": "Cult of Ignis",
+		"replaces": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"All adjacent units heal [+15] HP when healing",
+			"[+15] HP when healing",
+			"Can instantly construct a [Outpost] improvement <by consuming this unit>",
+			"Great Person - [War]",
+			"Can be earned through combat <for [Land] units>",
+			"Unbuildable"
+		],
+		"movement": 5
+	},
+	{
+		"name": "Upyr",
+		"uniqueTo": "Proklyatyye",
+		"replaces": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"[-15]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Great Person - [War]",
+			"Can be earned through combat <for [Land] units>",
+			"Unbuildable"
+		],
+		"promotions": ["Gas Mask", "Radioactive"],
+		"movement": 2
+	},
+	{
+		"name": "Khan",
+		"unitType": "Scrapper",
+		"uniqueTo": "The Hunnu",
+		"replaces": "Great General",
+		"upgradesTo": "Hussar",
+		"movement": 4,
+		"strength": 20,
+		"cost": 500,
+		"uniques": [
+			"Low Tech",
+			"[+50]% Strength <vs [Low Tech] units>",
+			"[-25]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"Great Person - [War]",
+			"Can be earned through combat <for [Land] units>",
+			"Unbuildable"
+		],
+		"promotions": ["[Khan] ability"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Death Counter",
+		"uniqueTo": "TCC",
+		"replaces": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+			"[+25]% Strength bonus for [Military] units within [1] tiles",
+			"Great Person - [War]",
+			"Unbuildable",
+			"Can transform to [Death Laser]",
+			"Can be earned through combat <for [Land] units>",
+			"This Unit upgrades for free including special upgrades <upon ending a turn in a [Foreign Land] tile> <for [AI player]>",
+			"May upgrade to [Death Laser] through ruins-like effects"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Death Laser",
+		"uniqueTo": "TCC",
+		"replaces": "Machine Gun",
+		"unitType": "Siege",
+		"range": 1,
+		"movement": 2,
+		"strength": 100,
+		"rangedStrength": 32,
+		"interceptRange": 2,
+		"cost": 450,
+		"uniques": [
+			"Can transform to [Death Counter]",
+			"[-90]% Strength <vs [Melee] units> <when defending>",
+			"[-2] Sight",
+			"Must set up to ranged attack",
+			"[+400]% Strength <when attacking>",
+			"Destroys tile improvements when attacking",
+			"No damage penalty for wounded units",
+			"[25]% chance to intercept air attacks",
+			"[+200]% maintenance costs",
+			"Can only heal by pillaging",
+			"Great Unit - War",
+			"Cannot be purchased",
+			"Unbuildable",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Promotion Nullifier"],
+		"hurryCostModifier": 20,
+		"attackSound": "phasers"
+	},
+	{
+		"name": "Mandrill",
+		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "Cyberapes",
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"[+25]% Strength bonus for [Gorilla] units within [3] tiles",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat <for [Land] units>",
+			"Great Person - [War]",
+			"Unbuildable"
+		],
+		"movement": 3
+	},
+	{
+		"name": "Eagle Speaker",
+		"unitType": "Civilian",
+		"uniqueTo": "Aztlán",
+		"replaces": "Great General",
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"[+15]% Strength bonus for [Military] units within [3] tiles",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can instantly construct a [Survivor camp] improvement <once> <in tiles adjacent to [City ruins] tiles> <for [2] movement>",
+			"Can be earned through combat <for [Land] units>",
+			"Great Person - [War]", 
+			"Unbuildable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Coordinator Unit",
+		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "Gestalt",
+		"uniques": [
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"[+5]% Strength bonus for [Military] units within [2] tiles <when adjacent to a [Coordinator Unit] unit>",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Great Person - [War]",
+			"Can be earned through combat <for [Land] units>",
+			"Unbuildable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Blessed General",
+		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "Raider Kingdom",
+		"uniques": [
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"Can see over obstacles",
+			"Ignores terrain cost",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"Great Person - [War]",
+			"Can be earned through combat <for [Land] units>",
+			"Unbuildable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Opinionspeople",
+		"replaces": "Great General",
+		"uniqueTo": "Reactorland",
+		"unitType": "Civilian",
+		"uniques": [
+			"Empire enters a [6]-turn Golden Age <by consuming this unit>",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"Can instantly construct a [Academy] improvement <by consuming this unit>",
+			"Can instantly construct a [Settlement] improvement <by consuming this unit>",
+			"Can be earned through combat <for [Land] units>",
+			"Great Person - [War]",
+			"Unbuildable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Great Farmer",
+		"unitType": "Civilian",
+		"uniques": [
+			"[+1] population [in all cities] <by consuming this unit>",
+			"Can instantly construct a [Factory farm] improvement <by consuming this unit>",
+			"Great Person - [Food]",
+			"Unbuildable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Counter - Food",
+		"uniqueTo": "TCC",
+		"replaces": "Great Farmer",
+		"unitType": "Civilian",
+		"uniques": [
+			"Empire enters a [12]-turn Golden Age <by consuming this unit>",
+			"Can instantly construct a [Settlement] improvement <by consuming this unit>",
+			"Can instantly construct a [Factory farm] improvement <by consuming this unit>",
+			"Great Person - [Food]",
+			"Unbuildable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Great Admiral",
+		"unitType": "Civilian Water",
+		"uniques": [
+			"Can instantly construct a [Drydock] improvement <by consuming this unit>",
+			"[+15]% Strength bonus for [{Military} {Water}] units within [2] tiles",
+			"May heal outside of friendly territory",
+			"[+15] HP when healing",
+			"All adjacent units heal [+15] HP when healing",
+			"Can be earned through combat <for [Water] units>",
+			"Great Person - [Navy]",
+			"Unbuildable"
+		],
+		"movement": 6
+	},
+	{
+		"name": "Great Submarine Commander",
+		"unitType": "Civilian Water",
+		"replaces": "Great Admiral",
+		"uniqueTo": "Charybdis Division",
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"[+15]% Strength bonus for [Water] units within [2] tiles",
+			"[+15]% Strength bonus for [Submarine] units within [2] tiles",
+			"[1] free [Leviathan-Class Submarine] units appear <by consuming this unit>",
+			"May heal outside of friendly territory",
+			"[+15] HP when healing",
+			"All adjacent units heal [+15] HP when healing",
+			"Great Person - [Navy]",
+			"Can be earned through combat <for [Water] units>",
+			"Unbuildable"
+		],
+		"promotions": ["Oceanic Mutation"],
+		"movement": 6
+	},
+	{
+		"name": "Leviathan-Class Submarine",
+		"unitType": "Submarine",
+		"uniqueTo": "Charybdis Division",
+		"movement": 6,
+		"strength": 70,
+		"range": 3,
+		"rangedStrength": 100,
+		"uniques": [
+			"Unbuildable",
+			"Cannot be purchased",
+			"Can move after attacking",
+			"[+75]% Strength <when attacking>",
+			"[+60]% Strength <vs [Ranged Water] units> <when defending>",
+			"Can only attack [Water] tiles",
+			"[+1] Sight",
+			"Can carry [3] [Missile] units",
+			"Consumes [1] [Uranium]",
+			"Can see invisible [{Wounded} {Water}] units"
+		],
+		"promotions": ["Wolfpack I"],
+		"attackSound": "torpedo"
+	}
+]
